@@ -1,0 +1,13 @@
+<div class="container-fluid">
+    <div>
+        <div class="col12 px-4">
+            <img *ngIf="(payload?.media_type === 'image')" class="img-thumbnail" [src] = "payload.url">
+        <div class="card">
+            <div class ="card-body">
+                {{payload?.explanation}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <pre>{{payload | json}}</pre> -->

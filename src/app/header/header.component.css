@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    height: 65px;
+    margin: 0px;
+    background: rgb(10, 10, 10);
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    display: block;
+}
+
+.links {
+    display: inline;
+    /* margin-rigt: 15px; */
+}
+
+h2 {
+    color: lightskyblue;
+}
+
+.date {
+    color: rgb(247, 242, 242);
+}
+
+.bi {
+    color: rgb(244, 211, 169);
+    font-size: 2rem;
+}
